@@ -39,7 +39,7 @@
 
                <div style="color:#212121; font-size:20px">It's free and always will be</div>
 
-               <form name="user-sign-up" action="handle.php" method="POST">
+               <form name="user-sign-up" action="functions/handle_register.php" method="POST">
 
                     <div class="sign-up-form">
 
@@ -63,29 +63,14 @@
 
                              </div>
 
-                         <div class="sign-up-birthday">
-
-                              <div class="bday">Birthday</div>
-
-                              <div class="form-birthday">
-
-                                   <select name="birth-day" id="days" class="select-body"></select>
-
-                                   <select name="birth-month" id="months" class="select-body"></select>
-
-                                   <select name="birth-year" id="years" class="select-body"></select>
-
-                                  </div>
-
-                             </div>
-
+                       
                          <div class="gender-wrap">
 
-                              <input type="radio" name="gen" id="fem" value="female" class="m0">
+                              <input type="radio" name="gen" id="fem" value="1" class="m0">
 
                               <label for="fem" class="gender">Female</label>
 
-                              <input type="radio" name="gen" id="male" value="male" class="m0">
+                              <input type="radio" name="gen" id="male" value="2" class="m0">
 
                               <label for="male" class="gender">Male</label>
 
